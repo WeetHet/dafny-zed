@@ -1,0 +1,15 @@
+id = "dafny"
+name = "Dafny"
+description = "Dafny support."
+version = "0.0.1"
+schema_version = 1
+authors = ["WeetHet <stas.ale66@gmail.com>"]
+repository = "https://github.com/weethet/dafny-zed"
+
+[language_servers.dafny]
+name = "Dafny language support"
+language = "Dafny"
+
+[grammars.dafny]
+repository = "https://github.com/alschena/tree-sitter-dafny"
+commit = "4301a8b8dd27789fb59c6f95a2413d784c4d959f"
