@@ -50,7 +50,7 @@ impl DafnyExtension {
                 zed::Architecture::X86 => return Err("unsupported architecture".into()),
             },
             os = match platform {
-                zed::Os::Mac => "macos-11",
+                zed::Os::Mac => "macos-13",
                 zed::Os::Linux => "ubuntu-20.04",
                 zed::Os::Windows => "windows-2019",
             },
